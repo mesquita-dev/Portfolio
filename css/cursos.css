@@ -1,0 +1,167 @@
+.cursos{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 390px 1fr;
+  gap: 10px;
+}
+/* Parte da esquerda */
+.cursos-esquerda{
+  margin-left: 180px;
+}
+.cursos-esquerda h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.cursos-esquerda ul li{
+  color: var(--cor-cinza);
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-size: 1.125rem;
+  padding: .7rem 2.5rem;  
+}
+
+.cursos-esquerda li:first-child{
+  color: var(--cor-branco);
+  font-weight: 500;
+  font-size: 1.125rem;
+  border-left: 2px solid var(--cor-principal);
+}
+
+/* Parte da direita */
+.cursos-direita{
+  grid-column: 3;
+  margin-top: 75px;
+  margin-right: 180px;
+}
+
+.curso-data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cursos-direita .curso-data h1{
+  text-transform: initial;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.cursos-direita .curso-data p{
+  font-weight: 500;
+}
+
+.cursos-direita span{
+  color: var(--cor-principal);
+  margin: 26px 0px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.descricao{
+  color: var(--cor-cinza);
+  font-size: 1.125rem;
+  text-transform: initial;
+  font-weight: 300;
+}
+
+/* Responsivo */
+@media (max-width: 890px){
+  .cursos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cursos-esquerda{
+    margin-left: 40px;
+  }
+  .cursos-esquerda h1{
+    margin-bottom: 24px;
+  }
+  .cursos-esquerda ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cursos-esquerda ul li{
+    font-size: 1.125rem;
+    padding: .4rem 1rem;  
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cursos-esquerda li:first-child{
+    font-size: 1.125rem;
+    border-left: none;
+    border-bottom: 2px solid var(--cor-principal);
+  }
+  .cursos-direita{
+    margin: 20px 40px 0px 40px;
+  }
+  .cursos-direita .curso-data h1{
+    text-transform: initial;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  .cursos-direita .curso-data p{
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .cursos-direita span{
+    margin: 12px 0px;
+    font-size: 0.875rem;
+  }
+  .descricao{
+    font-size: 0.875rem;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 420px){
+  .cursos{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cursos-esquerda{
+    margin-left: 24px;
+  }
+  .cursos-esquerda h1{
+    margin-bottom: 24px;
+  }
+  .cursos-esquerda ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cursos-esquerda ul li{
+    font-size: 0.875rem;
+    padding: .4rem 1rem;  
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cursos-esquerda li:first-child{
+    font-size: 0.875rem;
+    border-left: none;
+    border-bottom: 2px solid var(--cor-principal);
+  }
+  .cursos-direita{
+    margin: 30px 24px 0px 24px;
+  }
+  .cursos-direita .curso-data h1{
+    text-transform: initial;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .cursos-direita .curso-data p{
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  .cursos-direita span{
+    margin: 16px 0px;
+    font-size: 0.875rem;
+  }
+  .descricao{
+    font-size: 0.75rem;
+    font-weight: 300;
+  }
+}

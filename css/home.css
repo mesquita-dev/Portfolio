@@ -1,0 +1,73 @@
+.home{
+  background: var(--cor-preto-1);
+  background-image: url(/img/aspiral.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  height: 65vh;
+}
+
+.home-info{
+  margin-left: 180px;
+  margin-top: 190px;
+}
+
+.home-info p{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--cor-branco);
+}
+
+.home-info h1{
+  font-weight: 600;
+  font-size: 4rem;
+  color: var(--cor-principal);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.home-info h1, p{
+  text-transform: uppercase;
+}
+
+/* Botões */
+.home-info .btns{
+  display: flex;
+  gap: 2rem;
+}
+
+.home-info .btn-1, .btn-2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Responsivo */
+@media(max-width: 890px){
+  .home{
+    height: 360px;
+  }
+  .home-info{
+    margin-left: 24px;
+    margin-top: 60px;
+  }
+  .home-info p{
+    font-size: 0.875rem;
+  }
+  .home-info h1{
+    font-size: 2rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .home-info .btns{
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+
+
+
+
+
+

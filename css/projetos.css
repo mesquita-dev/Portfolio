@@ -1,0 +1,118 @@
+.projetos-container{
+  margin: 100px 180px 0px 180px;
+}
+
+.projetos .titulo-principal{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.galeria{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+/* Projeto 1*/
+.projeto-1 .img-projeto{
+  max-width: 100%;
+  width: 530px;
+  height: 200px;
+  border-left: 4px solid var(--cor-principal);
+  border-radius: 4px 0px 0px 4px;
+  object-fit: cover;
+  object-position: left;
+}
+.projeto-1 .btn-2{
+  margin-top: 30px;
+}
+
+/* Projeto 2*/
+.projeto-2 .img-projeto{
+  max-width: 100%;
+  width: 530px;
+  height: 200px;
+  border-left: 4px solid var(--cor-principal);
+  border-radius: 4px 0px 0px 4px;
+  object-fit: cover;
+  object-position: left top;
+}
+.projeto-2 .btn-2{
+  margin-top: 30px;
+}
+
+/* Projeto 3*/
+.projeto-3{
+  width: 1fr;
+  margin-top: 80px;
+}
+.projeto-3 .img-projeto{
+  max-width: 100%;
+  width: 430px;
+  height: 200px;
+  border-left: 4px solid var(--cor-principal);
+  border-radius: 4px 0px 0px 4px;
+  object-fit: cover;
+  object-position: top;
+}
+.projeto-3 .btn-2{
+  margin-top: 30px;
+}
+
+/* Projeto 4*/
+.projeto-4{
+  margin-top: 80px;
+}
+.projeto-4 .img-projeto{
+  max-width: 100%;
+  width: 530px;
+  height: 200px;
+  border-left: 4px solid var(--cor-principal);
+  border-radius: 4px 0px 0px 4px;
+  object-fit: cover;
+}
+.projeto-4 .proj-lista{
+  margin-top: 65px;
+}
+.projeto-4 .btn-2{
+  margin-top: 30px;
+}
+
+/* Responsivo */
+@media (max-width: 850px){
+  .projetos-container{
+    margin: 40px 24px 0px 24px;
+  }
+  .projetos .titulo-principal{
+    margin-bottom: 24px;
+  }
+  .galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .proj-titulo{
+    font-size: 1rem;
+    margin: 24px 0px 16px 0px;
+  }
+  .proj-paragrafo{
+    font-size: 0.75rem;
+    margin-bottom: 12px;
+  }
+  .proj-lista{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .projeto-1 .btn-2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .projeto-2 .btn-2, .projeto-3 .btn-2, .projeto-4 .btn-2{
+    margin-top: 20px;
+  }
+  .projeto-4 .proj-lista{
+    margin-top: 12px;
+  }
+}

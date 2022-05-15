@@ -1,0 +1,46 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 180px 0px 180px;
+  align-content: center;
+  background: var(--cor-preto-1);
+}
+
+header h1{
+  color: var(--cor-principal);
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+
+header ul a{
+  color: var(--cor-cinza);
+}
+
+header ul a:hover{
+  color: var(--cor-branco);
+  transition: 0.3s;
+}
+
+@media(max-width: 890px){
+  header{
+    margin: 24px 24px 0px 24px;
+  }
+}
+@media(max-width: 570px){
+  header{
+    margin-top: 24px;
+    justify-content: center;
+  }
+  header ul{
+    display: none;
+  }
+}
+
