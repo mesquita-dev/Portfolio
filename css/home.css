@@ -4,12 +4,12 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right bottom;
-  height: 65vh;
+  height: 80vh;
 }
 
 .home-info{
-  margin-left: 180px;
-  margin-top: 190px;
+  padding-left: 180px;
+  padding-top: 180px;
 }
 
 .home-info p{
