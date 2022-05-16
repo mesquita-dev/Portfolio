@@ -115,4 +115,9 @@
   .projeto-4 .proj-lista{
     margin-top: 12px;
   }
+  .projeto-4 .img-projeto, .projeto-1 .img-projeto{
+    max-width: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
 }
