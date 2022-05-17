@@ -99,6 +99,9 @@ footer{
 }
 /* Responsivo Footer */
 @media(max-width: 890px){
+  body{
+    overflow-x: hidden;
+  }
   footer{
     margin: 60px 24px 40px 24px;
   }
@@ -106,5 +109,8 @@ footer{
 @media (max-width: 420px){
   footer{
     margin: 60px 24px 40px 24px;
+  }
+  body{
+    overflow-x: hidden;
   }
 }
