@@ -65,6 +65,19 @@
   }
 }
 
+@media (max-width:375px){
+  .btn-1, .btn-2{
+  padding: 1rem 1rem;
+  }
+  .home-info p{
+    font-size: 0.75rem;
+  }
+  .home-info h1{
+    font-size: 1.125rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
 
 
 
