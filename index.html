@@ -12,6 +12,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./img/icons8-dev-32.png" type="image/x-icon">
+  <script>document.documentElement.className += " js"</script>
 </head>
 <body>
   <header>
@@ -60,20 +61,46 @@
   <section class="cursos" id="cursos">
       <div class="cursos-esquerda">
         <h1>Cursos</h1>
-        <ul>
+        <ul class="js-tabmenu">
           <li class="primeiro-titulo">HTML & CSS</li>
           <li>UI Design</li>
           <li>Figma</li>
           <li>MySQL</li>
         </ul>
       </div>
-      <div class="cursos-direita">
-        <div class="curso-data">
-          <h1>HTML & CSS</h1>
-          <p>Março, 2022</p>
-        </div>
-        <span>Origamid</span>
-        <p class="descricao">Curso de HTML & CSS com o aprendizado em todas as tecnologias atuais, desde acessibilidade até a criação de um website completo (Bikcraft apresentado abaixo) com todas as formas de acessibilidade, design e diversas outras ferramentas e recursos utilizado durante o curso.</p>
+      <div class="cursos-direita js-tabcontent">
+        <article>
+          <div class="curso-data">
+            <h1>HTML & CSS</h1>
+            <p>Março, 2022</p>
+          </div>
+          <span>Origamid</span>
+          <p class="descricao">Curso de HTML & CSS com o aprendizado em todas as tecnologias atuais, desde acessibilidade até a criação de um website completo (Bikcraft apresentado abaixo) com todas as formas de acessibilidade, design e diversas outras ferramentas e recursos utilizado durante o curso.</p>
+        </article>
+        <article class="curso-content js-tabcontent">
+          <div class="curso-data">
+            <h1>UI Design</h1>
+            <p>Fevereiro, 2022</p>
+          </div>
+          <span>Origamid</span>
+          <p class="descricao">Curso sobre Design de Interface de Usuário (UI Design). Aborda os principais conceitos para uma interface agradável ao usuário, onde a principal ferramente utilizada é o Figma para a criação de protótipos e wireframes para a criação de projetos.</p>
+        </article>
+        <article class="curso-content js-tabcontent">
+          <div class="curso-data">
+            <h1>Figma</h1>
+            <p>Fevereiro, 2022</p>
+          </div>
+          <span>Curso de Figma</span>
+          <p class="descricao">Curso para aprofundar os conhecimentos na principal ferramenta para a criação de Design. Foi criado um protótipo de alta fidelidade de um aplicativo para comércio de NFT's. Foi aprendido o conhecimento em todas as ferramentas, desde o próprio Figma até a criação de animações para as telas.</p>
+        </article>
+        <article class="curso-content js-tabcontent">
+          <div class="curso-data">
+            <h1>MySQL</h1>
+            <p>Dezembro, 2021</p>
+          </div>
+          <span>Curso em Video</span>
+          <p class="descricao">Curso de banco de dados sobre os principais conceitos e o básico para fazer, mexer e trabalhar com um banco de dados relacional.</p>
+        </article>
       </div>
     </div>
   </section>
@@ -143,4 +170,5 @@
   <script>
     AOS.init();
   </script>
+  <script src="script.js"></script>
 </html>
