@@ -16,6 +16,26 @@
   column-gap: 20px;
 }
 
+.projetos .techs{
+  margin: 10px 0;
+  width: 80%;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.projetos .techs svg{
+  color: var(--cor-principal-2);
+  width: 8%;
+  transition: all 0.2s;
+}
+
+.projetos .techs svg:hover{
+  color: var(--cor-decoracao);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 /* Projeto 1*/
 .projeto-1 .img-projeto{
   max-width: 100%;
@@ -74,13 +94,6 @@
   border-radius: 4px 0px 0px 4px;
   object-fit: cover;
 }
-.projeto-4 .proj-lista{
-  margin-top: 65px;
-}
-.projeto-4 .btn-2{
-  margin-top: 30px;
-}
-
 
 /* Responsivo */
 @media (max-width: 850px){
