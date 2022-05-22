@@ -26,10 +26,6 @@
   cursor: pointer;
 }
 
-.cursos-esquerda ul li:first-child{
-  border-left: 2px solid var(--cor-principal);
-}
-
 .curso-selecionado{
   color: var(--cor-branco);
   font-weight: 500;
@@ -97,11 +93,15 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .cursos-esquerda li:first-child{
+
+  .curso-selecionado{
+    color: var(--cor-branco);
+    font-weight: 500;
     font-size: 1.125rem;
-    border-left: none;
     border-bottom: 2px solid var(--cor-principal);
+    border-left: none;
   }
+
   .cursos-direita{
     padding: 0px 40px 0px 40px;
   }
@@ -167,11 +167,15 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .cursos-esquerda li:first-child{
-    font-size: 0.875rem;
-    border-left: none;
+
+  .curso-selecionado{
+    color: var(--cor-branco);
+    font-weight: 500;
+    font-size: 1.125rem;
     border-bottom: 2px solid var(--cor-principal);
+    border-left: none;
   }
+
   .cursos-direita{
     padding: 30px 24px 0px 24px;
   }
