@@ -44,13 +44,6 @@
   text-transform: initial;
 }
 
-.sobre-container ul{
-  display: flex;
-  gap: 34px;
-  margin-bottom: 30px;
-  align-items: center;
-}
-
 .sobre-container .btns{
   display: flex;
   gap: 2rem;
@@ -166,7 +159,7 @@
   }
   .sobre-container p{
     font-size: 0.875rem;
-    margin-bottom: 34px;
+    margin-bottom: 14px;
   }
   .sobre-container .btns{
     margin-bottom: 24px;
