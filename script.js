@@ -51,3 +51,14 @@ function initScrollSuave() {
   });
 }
 initScrollSuave();
+
+function lightMode() {
+  const html = document.querySelector("html");
+  const checkbox = document.querySelector("#check");
+
+  checkbox.addEventListener("change", () => {
+    html.classList.toggle("light-mode");
+  });
+}
+lightMode();
+

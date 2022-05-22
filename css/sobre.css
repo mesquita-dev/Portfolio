@@ -1,7 +1,8 @@
 .sobre{
   display: flex;
   gap: 180px;
-  margin-top: 100px;
+  padding-top: 100px;
+  background: var(--cor-fundo-2);
 }
 
 .imagem{
@@ -19,7 +20,7 @@
 }
 
 .sobre-container{
-  margin-right: 180px;
+  padding-right: 180px;
 }
 
 .sobre-container h1{
@@ -38,7 +39,7 @@
 .sobre-container p{
   font-size: 1.125rem;
   font-weight: 300;
-  color: var(--cor-cinza);
+  color: var(--cor-subtitulos);
   margin-bottom: 40px;
   text-transform: initial;
 }
@@ -58,6 +59,25 @@
 
 .sobre-container .btn-1, .sobre-container .btn-2{
   margin-top: 0px;
+}
+
+.techs{
+  margin: 10% 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.techs svg{
+  color: var(--cor-principal-2);
+  width: 8%;
+  transition: all 0.2s;
+}
+
+.techs svg:hover{
+  color: var(--cor-decoracao);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 
@@ -85,11 +105,17 @@
     justify-content: left;
     padding-left: 180px;
   }
+  .techs{
+    margin: 40px 120px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @media(max-width: 890px){
   .sobre{
-    margin-left: 40px;
+    padding-left: 40px;
   }
   .imagem{
     display: none;
@@ -111,11 +137,17 @@
     justify-content: left;
     padding-left: 0px;
   }
+  .techs{
+    margin: 40px 0px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 420px){
   .sobre{
-    margin: 40px 24px 0px 24px;
+    padding: 40px 24px 0px 24px;
   }
   .imagem{
     display: none;
@@ -136,5 +168,8 @@
   }
   .sobre-container .btns{
     margin-bottom: 24px;
+  }
+  .techs{
+    width: 100%;
   }
 }

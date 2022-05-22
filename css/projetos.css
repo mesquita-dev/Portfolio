@@ -1,5 +1,6 @@
 .projetos-container{
-  margin: 100px 180px 0px 180px;
+  background: var(--cor-fundo-2);
+  padding: 100px 180px 100px 180px;
 }
 
 .projetos .titulo-principal{
@@ -123,7 +124,7 @@
 
 @media (max-width: 420px){
   .projetos-container{
-    margin: 40px 24px 0px 24px;
+    padding: 40px 24px 0px 24px;
   }
   .projetos .titulo-principal{
     margin-bottom: 24px;

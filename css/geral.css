@@ -25,20 +25,36 @@ ul{
 }
 
 /* Cores */ 
+/* Dark Mode */ 
 :root {
   --cor-principal: #00D2DF;
+  --cor-principal-2: #00d2df;
+  --cor-decoracao: #d24074;
   --cor-gradiente-1: linear-gradient(270.06deg, #6518B4 0%, #D24074 101.62%);
   --cor-gradiente-2: linear-gradient(269.96deg, #10D7E2 0%, #9358F7 100%);
-  --cor-preto-1: #121212;
-  --cor-preto-2: #151515;
-  --cor-cinza: #c4c4c4;
-  --cor-branco: #fff;
+  --cor-fundo-1: #121212;
+  --cor-fundo-2: #151515;
+  --cor-subtitulos: #c4c4c4;
+  --cor-titulos: #fff;
+}
+/* Light Mode */ 
+.light-mode:root{
+  --cor-principal: #640D14;
+  --cor-principal-2: #2F91AF;
+  --cor-decoracao: #d24074;
+  --cor-gradiente-1: linear-gradient(180deg, #AD2831 0%, #610D12 100%);
+  --cor-gradiente-2: linear-gradient(180deg, #0787AD 0%, #084C61 100%);
+  --cor-fundo-1: #fff;
+  --cor-fundo-2: #f8f8f8;
+  --cor-subtitulos: #1A0005;
+  --cor-titulos: #0C0002;
 }
 
 /* Body */ 
 body{
-  background: var(--cor-preto-2);
-  color: var(--cor-branco);
+  background: var(--cor-fundo-1);
+  color: var(--cor-titulos);
+  overflow-x: hidden;
 }
 
 /* Botões */ 
@@ -52,7 +68,7 @@ body{
   font-weight: 700;
   margin-top: 75px;
   cursor: pointer;
-  color: var(--cor-branco);
+  color: var(--cor-titulos);
 }
 .btn-2{
   background: transparent;
@@ -64,7 +80,12 @@ body{
   font-weight: 700;
   margin-top: 75px;
   cursor: pointer;
-  color: var(--cor-branco);
+  color: var(--cor-titulos);
+}
+
+.btns i{
+  display: flex;
+  align-items: center;
 }
 
 /* Projeto reutilizáveis */ 
@@ -76,7 +97,7 @@ body{
 }
 .proj-paragrafo{
   font-weight: 300;
-  color: var(--cor-cinza);
+  color: var(--cor-subtitulos);
   text-transform: initial;
   margin-bottom: 26px;
 }
@@ -88,7 +109,7 @@ body{
 
 /* Footer */ 
 footer{
-  margin: 100px 180px 40px 180px;
+  margin: 40px 180px 40px 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,5 +1,5 @@
 .home{
-  background: var(--cor-preto-1);
+  background: var(--cor-fundo-1);
   background-image: url(/img/aspiral.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -15,7 +15,7 @@
 .home-info p{
   font-weight: 600;
   font-size: 1.5rem;
-  color: var(--cor-branco);
+  color: var(--cor-titulos);
 }
 
 .home-info h1{
@@ -66,7 +66,7 @@
   }
 }
 
-@media (max-width:375px){
+@media (max-width:420px){
   .btn-1, .btn-2{
   padding: 1rem 1rem;
   }
@@ -77,6 +77,11 @@
     font-size: 1.125rem;
     margin-top: 8px;
     margin-bottom: 8px;
+  }
+  .home{
+    background: var(--cor-fundo-1);
+    background-image: none;
+    height: 30vh;
   }
 }
 

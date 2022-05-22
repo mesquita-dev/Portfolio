@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 390px 1fr;
   gap: 10px;
-  background: var(--cor-preto-1);
+  background: var(--cor-fundo-1);
 }
 /* Parte da esquerda */
 .cursos-esquerda{
@@ -18,7 +18,7 @@
 }
 
 .cursos-esquerda ul li{
-  color: var(--cor-cinza);
+  color: var(--cor-subtitulos);
   font-weight: 300;
   margin-bottom: 30px;
   font-size: 1.125rem;
@@ -27,7 +27,7 @@
 }
 
 .curso-selecionado{
-  color: var(--cor-branco);
+  color: var(--cor-titulos);
   font-weight: 500;
   font-size: 1.125rem;
   border-left: 2px solid var(--cor-principal);
@@ -64,7 +64,7 @@
 }
 
 .descricao{
-  color: var(--cor-cinza);
+  color: var(--cor-subtitulos);
   font-size: 1.125rem;
   text-transform: initial;
   font-weight: 300;
@@ -96,7 +96,7 @@
   }
 
   .curso-selecionado{
-    color: var(--cor-branco);
+    color: var(--cor-titulos);
     font-weight: 500;
     font-size: 1.125rem;
     border-bottom: 2px solid var(--cor-principal);
@@ -170,7 +170,7 @@
   }
 
   .curso-selecionado{
-    color: var(--cor-branco);
+    color: var(--cor-titulos);
     font-weight: 500;
     font-size: 1.125rem;
     border-bottom: 2px solid var(--cor-principal);
