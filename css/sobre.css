@@ -116,6 +116,7 @@
 @media(max-width: 890px){
   .sobre{
     padding-left: 40px;
+    padding-top: 60px;
   }
   .imagem{
     display: none;
@@ -147,7 +148,8 @@
 
 @media (max-width: 420px){
   .sobre{
-    padding: 40px 24px 0px 24px;
+    padding-left: 20px;
+    padding-top: 30px;
   }
   .imagem{
     display: none;
