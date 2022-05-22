@@ -159,13 +159,12 @@
   }
   .sobre-container p{
     font-size: 0.875rem;
-    margin-bottom: 14px;
   }
   .sobre-container .btns{
-    margin-bottom: 24px;
+    margin: 24px 0px;
   }
   .techs{
     width: 100%;
-    margin: 10px 0px;
+    margin: 14px 0px;
   }
 }
