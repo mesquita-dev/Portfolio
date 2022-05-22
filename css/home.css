@@ -67,8 +67,8 @@
 }
 
 @media (max-width:420px){
-  .btn-1, .btn-2{
-  padding: 1rem 1rem;
+  .home{
+    height: 280px;
   }
   .home-info p{
     font-size: 0.75rem;
@@ -81,11 +81,27 @@
   .home{
     background: var(--cor-fundo-1);
     background-image: none;
-    height: 30vh;
+  }
+  .home-info .btns{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .btn-1{
+    padding: .7rem 2rem;
+    margin-top: 35px;
+  }
+  .btn-2{
+    padding: .7rem 2rem;
+    margin-top: 35px;
   }
 }
 
-
+@media (max-width:350px){
+  .btn-2{
+    margin-top: 5px;
+  }
+}
 
 
 
