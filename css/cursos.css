@@ -33,6 +33,7 @@
   border-left: 2px solid var(--cor-principal);
 }
 
+
 /* Parte da direita */
 .cursos-direita{
   grid-column: 3;
@@ -179,6 +180,7 @@
   .cursos-direita{
     padding: 30px 24px 0px 24px;
   }
+  
   .cursos-direita .curso-data h1{
     text-transform: initial;
     font-size: 1rem;
