@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import Work from "@/components/work/work";
+import Hero from "@/components/hero/hero";
+import Projects from "@/components/projects/projects";
 
 import {
   BezierCurve,
@@ -13,22 +13,14 @@ import {
 export default function Home() {
   return (
     <>
-      <div className="bg-black rounded-bl-[32px] rounded-br-[32px]">
-        <section className="container border-x border-[#202020] py-16">
-          <span className="text-[#BABABA] text-sm block mb-2">
-            UI Engineer na Granto Seguros
-          </span>
-          <h1 className="text-white text-5xl font-bold mb-4">
-            Olá! Eu sou o Lucas
-          </h1>
-          <p className="text-[#BABABA] text-base font-medium max-w-lg mb-6">
-            Passo a maior parte do meu dia observando o design dia a dia e as
-            interações das pessoas com o mundo. O meu objetivo é, através de
-            interfaces, transformar a sua experiência em algo positivo.
-          </p>
-          <Button variant="secondary">Explore meus projetos</Button>
-        </section>
-      </div>
+      <Hero
+        textSpan="UI Engineer na Granto Seguros"
+        textTitle="Olá! Eu sou o Lucas"
+        textParagraph="Passo a maior parte do meu dia observando o design dia a dia e as
+        interações das pessoas com o mundo. O meu objetivo é, através de
+        interfaces, transformar a sua experiência em algo positivo."
+        textButton="Explore meus projetos"
+      />
 
       <div>
         <section className="container border-x border-[#F0F0F0] py-28 flex gap-40">
@@ -102,8 +94,10 @@ export default function Home() {
 
       <div>
         <section className="container border border-[#F0F0F0] border-b-0 py-16">
-            <h2 className="text-black text-4xl font-bold mb-6">Projetos selecionados</h2>
-            <Work />
+          <h2 className="text-black text-4xl font-bold mb-6">
+            Projetos selecionados
+          </h2>
+          <Projects />
         </section>
       </div>
     </>

@@ -6,10 +6,11 @@ import { ArrowUpRight } from "lucide-react";
 import { MagicWand } from "@phosphor-icons/react";
 import Link from "next/link";
 
-const Work = () => {
+const Projects = () => {
   return (
     <div>
       {data.map((project) => (
+
         <div key={project.id}>
           <Image
             src={project.imgSrc}
@@ -29,7 +30,7 @@ const Work = () => {
             {project.title}
           </h1>
           <div className="flex gap-12 mb-20">
-            <Link href="/">
+            <Link href={project.linkPublic} target="_blank">
               <Button className="flex gap-4 items-center">
                 <ArrowUpRight size={16} />
                 Acessar projeto
@@ -42,7 +43,7 @@ const Work = () => {
                 Acessar protótipo
               </Button>
             ) : (
-              <Link href="/">
+              <Link href={project.linkFigma} target="_blank">
                 <Button variant="outline" className="flex gap-4 items-center">
                   <MagicWand size={16} />
                   Acessar protótipo
@@ -56,4 +57,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;
