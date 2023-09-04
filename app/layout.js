@@ -1,10 +1,12 @@
+import { Analytics } from '@vercel/analytics/react';
+
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 
 import "./globals.css";
 
-import localFont from "next/font/local";
 
+import localFont from "next/font/local";
 const satoshi = localFont({
   src: [
     {
@@ -37,12 +39,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={satoshi.className}>
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
