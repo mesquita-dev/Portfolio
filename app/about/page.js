@@ -64,7 +64,7 @@ const About = () => {
 
           <p className="max-w-lg text-base mb-2">
             Posteriormente, apliquei para uma vaga na{" "}
-            <Link href="https://grantoseguros.com" className="underline" target="_blank">Granto Seguros</Link>para trabalhar como vendedor,
+            <Link href="https://grantoseguros.com" className="underline" target="_blank">Granto Seguros</Link> para trabalhar como vendedor,
             porém, no meio do processo seletivo em conversa com a{" "}
             <Link href="https://www.linkedin.com/in/raquel-santana/" className="underline" target="_blank">Raquel Santana</Link> uma outra pessoa que sou
             extremamente grato, consegui mudar para Web Designer, uma posição
