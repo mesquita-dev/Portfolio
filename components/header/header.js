@@ -8,8 +8,12 @@ const Header = () => {
         <Link href="/" className='text-white text-xl font-light tracking-wide'>lucas.design</Link>
 
         <ul className='flex gap-6'>
-          <Link href='/about' className='text-[#808080] text-base tracking-tight font-light hover:text-white'>sobre</Link>
-          <Link href='https://read.cv/lucasmesquita' className='text-[#808080] text-base tracking-tight font-light hover:text-white' target='_blank'>currículo</Link>
+          <li>
+            <Link href='/about' className='text-[#808080] text-base tracking-tight font-light hover:text-white'>sobre</Link>
+          </li>
+          <li>
+            <Link href='https://read.cv/lucasmesquita' className='text-[#808080] text-base tracking-tight font-light hover:text-white' target='_blank'>currículo</Link>
+          </li>
         </ul>
       </header>
     </div>

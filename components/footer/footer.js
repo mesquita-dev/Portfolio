@@ -30,37 +30,37 @@ const Footer = () => {
         <div className="flex flex-wrap max-w-xl justify-between mt-16">
           <Link href="https://dribbble.com/mesquitadev_" target="_blank">
             <div className="p-3 w-fit bg-[#202020] rounded-md hover:-translate-y-1 transition-all">
-              <DribbbleLogo size={32} color="#fff" />
+              <DribbbleLogo size={32} color="#fff" alt="Logo do Dribbble"/>
             </div>
           </Link>
 
           <Link href="https://github.com/mesquita-dev" target="_blank">
             <div className="p-3 w-fit bg-[#202020] rounded-sm hover:-translate-y-1 transition-all">
-              <GithubLogo size={32} color="#fff" />
+              <GithubLogo size={32} color="#fff" alt="Logo do Github"/>
             </div>
           </Link>
 
           <Link href="https://www.behance.net/mesquitadev" target="_blank">
             <div className="p-3 w-fit bg-[#202020] rounded-sm hover:-translate-y-1 transition-all">
-              <BehanceLogo size={32} color="#fff" />
+              <BehanceLogo size={32} color="#fff" alt="Logo do Behance"/>
             </div>
           </Link>
 
           <Link href="https://figma.com/@mesquitadev" target="_blank">
             <div className="p-3 w-fit bg-[#202020] rounded-sm hover:-translate-y-1 transition-all">
-              <FigmaLogo size={32} color="#fff" />
+              <FigmaLogo size={32} color="#fff" alt="Logo do Figma"/>
             </div>
           </Link>
 
           <Link href="https://www.linkedin.com/in/mesquita-dev/" target="_blank">
             <div className="p-3 w-fit bg-[#202020] rounded-sm hover:-translate-y-1 transition-all">
-              <LinkedinLogo size={32} color="#fff" />
+              <LinkedinLogo size={32} color="#fff" alt="Logo do LinkedIn"/>
             </div>
           </Link>
 
           <Link href="https://wa.link/5xl2k8" target="_blank">
             <div className="p-3 w-fit bg-[#202020] rounded-sm hover:-translate-y-1 transition-all">
-              <WhatsappLogo size={32} color="#fff" />
+              <WhatsappLogo size={32} color="#fff" alt="Logo do WhatsApp"/>
             </div>
           </Link>
         </div>
