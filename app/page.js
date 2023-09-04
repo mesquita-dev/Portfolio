@@ -20,6 +20,7 @@ export default function Home() {
         interações das pessoas com o mundo. O meu objetivo é, através de
         interfaces, transformar a sua experiência em algo positivo."
         textButton="Explore meus projetos"
+        href='#projects'
       />
 
       <div>
@@ -93,7 +94,7 @@ export default function Home() {
       </div>
 
       <div>
-        <section className="container border border-[#F0F0F0] border-b-0 py-16">
+        <section className="container border border-[#F0F0F0] border-b-0 py-16" id="projects">
           <h2 className="text-black text-4xl font-bold mb-6">
             Projetos selecionados
           </h2>

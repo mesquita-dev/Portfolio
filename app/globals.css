@@ -8,6 +8,24 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Satoshi', sans-serif;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;     
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #000;   
+  border-radius: 4px;       
+  border: 1px solid #202020; 
 }

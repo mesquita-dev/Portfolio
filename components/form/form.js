@@ -54,11 +54,12 @@ const Form = () => {
           placeholder="Digite seu nome"
           onChange={(event) => setName(event.target.value)}
           value={name}
+          autoComplete="disabled"
           className="peer h-8 w-full bg-transparent border-b border-[#202020] text-white placeholder-transparent focus:outline-none focus:border-white mb-8 max-w-lg"
         />
         <label
           htmlFor="name"
-          className="absolute left-0 -top-4 text-[#BABABA] text-sm peer-placeholder-shown:text-base transition-all peer-placeholder-shown:text-[#BABABA] peer-placeholder-shown:top-1 peer-focus:-top-4 peer-focus:text-[#BABABA] peer-focus:text-sm"
+          className="absolute left-0 -top-4 text-[#BABABA] cursor-pointer text-sm peer-placeholder-shown:text-base transition-all peer-placeholder-shown:text-[#BABABA] peer-placeholder-shown:top-1 peer-focus:-top-4 peer-focus:text-[#BABABA] peer-focus:text-sm"
         >
           Digite seu nome
         </label>
@@ -76,7 +77,7 @@ const Form = () => {
         />
         <label
           htmlFor="email"
-          className="absolute left-0 -top-4 text-[#BABABA] text-sm peer-placeholder-shown:text-base transition-all peer-placeholder-shown:text-[#BABABA] peer-placeholder-shown:top-1 peer-focus:-top-4 peer-focus:text-[#BABABA] peer-focus:text-sm"
+          className="absolute left-0 -top-4 text-[#BABABA] cursor-pointer text-sm peer-placeholder-shown:text-base transition-all peer-placeholder-shown:text-[#BABABA] peer-placeholder-shown:top-1 peer-focus:-top-4 peer-focus:text-[#BABABA] peer-focus:text-sm"
         >
           Digite seu email
         </label>
@@ -92,7 +93,7 @@ const Form = () => {
         />
         <label
           htmlFor="message"
-          className="absolute left-0 -top-4 text-[#BABABA] text-sm peer-placeholder-shown:text-base transition-all peer-placeholder-shown:text-[#BABABA] peer-placeholder-shown:top-1 peer-focus:-top-4 peer-focus:text-[#BABABA] peer-focus:text-sm break-words"
+          className="absolute left-0 -top-4 text-[#BABABA] cursor-pointer text-sm peer-placeholder-shown:text-base transition-all peer-placeholder-shown:text-[#BABABA] peer-placeholder-shown:top-1 peer-focus:-top-4 peer-focus:text-[#BABABA] peer-focus:text-sm break-words"
         >
           Digite sua mensagem
         </label>

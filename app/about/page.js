@@ -2,9 +2,6 @@ import Hero from "@/components/hero/hero";
 import React from "react";
 import Link from "next/link";
 
-import GrantoLogo from "@/public/logo_granto.jpg";
-import Image from "next/image";
-
 const About = () => {
   return (
     <>
@@ -13,6 +10,8 @@ const About = () => {
         textTitle="O hobbie que virou um trabalho"
         textParagraph="Aqui estará algumas informações sobre minha vida tanto pessoalmente quanto profissionalmente."
         textButton="Saber mais sobre mim"
+        href='https://linkedin.com/in/mesquita-dev'
+        target='blank'
       />
 
       <div>
