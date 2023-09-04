@@ -15,7 +15,7 @@ const About = () => {
       />
 
       <div>
-        <section className="container border-x border-[#F0F0F0] pt-28">
+        <section className="container border-x border-[#F0F0F0] pt-14 sm:pt-28">
           <h2 className="text-black text-4xl font-bold mb-2">
             Como tudo começou?
           </h2>
@@ -79,7 +79,7 @@ const About = () => {
           </p>
         </section>
 
-        <section className="container border-x border-[#F0F0F0] pt-14 pb-28">
+        <section className="container border-x border-[#F0F0F0] pt-14  pb-14 sm:pb-28">
           <h2 className="text-black text-4xl font-bold mb-4">
             Carreira até o momento
           </h2>
@@ -87,32 +87,32 @@ const About = () => {
           <div>
             <div className="flex justify-between max-w-2xl border-b border-[#F0F0F0] mb-4 pb-4">
               <div>
-                <h3 className="font-medium text-xl">UI Engineer na Granto Seguros</h3>
+                <h3 className="font-medium text-lg sm:text-xl">UI Engineer na Granto Seguros</h3>
                 <p className="text-sm">
                   UI Design • UX Design • Design System • React • Typescript
                 </p>
               </div>
-              <h4>Jun 2023 — Atualmente</h4>
+              <h4 className="text-sm sm:text-base">Jun 2023 — Atualmente</h4>
             </div>
 
             <div className="flex justify-between max-w-2xl border-b border-[#F0F0F0] mb-4 pb-4">
               <div>
-                <h3 className="font-medium text-xl">Web Designer na Granto Seguros</h3>
+                <h3 className="font-medium text-lg sm:text-xl">Web Designer na Granto Seguros</h3>
                 <p className="text-sm">
                   UI Design • UX Design • Wordpress • Elementor • CRO
                 </p>
               </div>
-              <h4>Dez 2022 — Jun 2023</h4>
+              <h4 className="text-sm sm:text-base">Dez 2022 — Jun 2023</h4>
             </div>
 
             <div className="flex justify-between max-w-2xl pb-4">
               <div>
-                <h3 className="font-medium text-xl">Front-end / UI & UX Designer na Agência SIX</h3>
+                <h3 className="font-medium text-lg sm:text-xl">Front-end / UI & UX Designer na Agência SIX</h3>
                 <p className="text-sm">
                   UI/UX Design • HTML • CSS • Figma
                 </p>
               </div>
-              <h4>Jun 2022 — Set 2022</h4>
+              <h4 className="text-sm sm:text-base">Jun 2022 — Set 2022</h4>
             </div>
           </div>
         </section>

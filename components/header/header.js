@@ -13,7 +13,7 @@ const Header = () => {
           </li>
           <li>
             <Link href='https://read.cv/lucasmesquita' className='text-[#808080] text-base tracking-tight font-light hover:text-white' target='_blank'>currículo</Link>
-          </li>
+          </li> 
         </ul>
       </header>
     </div>

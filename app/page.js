@@ -20,11 +20,11 @@ export default function Home() {
         interações das pessoas com o mundo. O meu objetivo é, através de
         interfaces, transformar a sua experiência em algo positivo."
         textButton="Explore meus projetos"
-        href='#projects'
+        href="#projects"
       />
 
       <div>
-        <section className="container border-x border-[#F0F0F0] py-28 flex gap-40">
+        <section className="container border-x border-[#F0F0F0] py-10 sm:py-28 flex flex-col gap-4 sm:gap-40 sm:flex-row">
           <div>
             <h2 className="text-black text-4xl font-bold mb-4">Serviços</h2>
           </div>
@@ -94,7 +94,10 @@ export default function Home() {
       </div>
 
       <div>
-        <section className="container border border-[#F0F0F0] border-b-0 py-16" id="projects">
+        <section
+          className="container border border-[#F0F0F0] border-b-0 py-10 sm:py-16"
+          id="projects"
+        >
           <h2 className="text-black text-4xl font-bold mb-6">
             Projetos selecionados
           </h2>

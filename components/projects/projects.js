@@ -26,12 +26,12 @@ const Projects = () => {
           <span className="block text-[#1E1E1E] text-xs font-normal uppercase mb-2">
             {project.techs}
           </span>
-          <h1 className="text-black text-2xl font-medium mb-4">
+          <h1 className="text-black text-xl sm:text-2xl font-medium mb-4">
             {project.title}
           </h1>
-          <div className="flex gap-12 mb-20">
+          <div className="flex sm:flex-row flex-col gap-4 sm:gap-12 mb-10 sm:mb-20">
             <Link href={project.linkPublic} target="_blank">
-              <Button className="flex gap-4 items-center">
+              <Button className="flex gap-4 items-center sm:w-auto w-full">
                 <ArrowUpRight size={16} />
                 Acessar projeto
               </Button>
@@ -44,7 +44,7 @@ const Projects = () => {
               </Button>
             ) : (
               <Link href={project.linkFigma} target="_blank">
-                <Button variant="outline" className="flex gap-4 items-center">
+                <Button variant="outline" className="flex gap-4 items-center sm:w-auto w-full">
                   <MagicWand size={16} />
                   Acessar protótipo
                 </Button>
