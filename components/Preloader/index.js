@@ -42,7 +42,8 @@ const Preloader = () => {
     },
   };
 
-  const hasVisitedBefore = sessionStorage.getItem('hasVisitedBefore')
+  const hasVisitedBefore =
+    typeof window !== "undefined" && sessionStorage.getItem("hasVisitedBefore");
 
   if (hasVisitedBefore) {
     return null;
