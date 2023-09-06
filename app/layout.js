@@ -32,7 +32,7 @@ const satoshi = localFont({
 export const metadata = {
   title: "lucas.design",
   description:
-    "Confira meu portfólio de UI Engineer. Explore designs intuitivos e elegantes que elevam a experiência do usuário. Veja como posso agregar valor ao seu projeto. Descubra mais agora!",
+    "Confira meu portfólio de UI/UX designer. Explore designs intuitivos e elegantes que elevam a experiência do usuário. Veja como posso agregar valor ao seu projeto. Descubra mais agora!",
 };
 
 export default function RootLayout({ children }) {

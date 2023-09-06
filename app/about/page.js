@@ -93,7 +93,7 @@ const About = () => {
           <div>
             <div className="flex justify-between max-w-2xl border-b border-[#F0F0F0] mb-4 pb-4">
               <div>
-                <h3 className="font-medium text-lg sm:text-xl">UI Engineer na Granto Seguros</h3>
+                <h3 className="font-medium text-lg sm:text-xl">UI/UX Designer na Granto Seguros</h3>
                 <p className="text-sm">
                   UI Design • UX Design • Design System • React • Typescript
                 </p>

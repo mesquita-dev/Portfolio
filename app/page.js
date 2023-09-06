@@ -42,7 +42,7 @@ export default function Home() {
       <Header />
 
       <Hero
-        textSpan="UI Engineer na Granto Seguros"
+        textSpan="UI/UX Designer na Granto Seguros"
         textTitle="Olá! Eu sou o Lucas"
         textParagraph="Passo a maior parte do meu dia observando o design dia a dia e as
         interações das pessoas com o mundo. O meu objetivo é, através de
