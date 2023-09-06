@@ -1,10 +1,16 @@
-import Hero from "@/components/hero/hero";
 import React from "react";
+
+import Header from "@/components/header/header";
+import Hero from "@/components/hero/hero";
+
 import Link from "next/link";
+import Footer from "@/components/footer/footer";
 
 const About = () => {
   return (
     <>
+      <Header />
+
       <Hero
         textSpan="Um pouco sobre mim"
         textTitle="O hobbie que virou um trabalho"
@@ -117,6 +123,8 @@ const About = () => {
           </div>
         </section>
       </div>
+    
+      <Footer />
     </>
   );
 };

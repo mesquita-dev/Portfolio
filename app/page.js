@@ -2,9 +2,11 @@
 
 import { useEffect, useState } from "react";
 
+import Header from "@/components/header/header";
 import Hero from "@/components/hero/hero";
 import Projects from "@/components/projects/projects";
 import Preloader from "@/components/Preloader";
+import Footer from "@/components/footer/footer";
 
 import {
   BezierCurve,
@@ -30,6 +32,8 @@ export default function Home() {
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>
+
+      <Header />
 
       <Hero
         textSpan="UI Engineer na Granto Seguros"
@@ -122,6 +126,8 @@ export default function Home() {
           <Projects />
         </section>
       </div>
+
+      <Footer />
     </>
   );
 }
