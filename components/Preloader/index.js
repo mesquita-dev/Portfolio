@@ -42,6 +42,12 @@ const Preloader = () => {
     },
   };
 
+  const hasVisitedBefore = sessionStorage.getItem('hasVisitedBefore')
+
+  if (hasVisitedBefore) {
+    return null;
+  }
+
   return (
     <motion.div
       variants={slideUp}

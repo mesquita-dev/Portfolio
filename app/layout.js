@@ -1,9 +1,6 @@
 import Script from "next/script";
 const GTM_ID = "G-NL5Y8LG4D9";
 
-import Header from "@/components/header/header";
-import Footer from "@/components/footer/footer";
-
 import "./globals.css";
 
 import localFont from "next/font/local";
@@ -52,7 +49,6 @@ export default function RootLayout({ children }) {
       </Script>
       <body className={satoshi.className}>
         {children}
-
         <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,

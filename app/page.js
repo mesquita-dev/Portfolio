@@ -20,11 +20,17 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
+    const hasVisitedBefore = sessionStorage.getItem("hasVisitedBefore");
+
+    if (hasVisitedBefore) {
       setIsLoading(false);
-      document.body.style.cursor = "default";
-      window.scrollTo(0, 0)
-    }, 2000);
+    } else {
+      setTimeout(() => {
+        setIsLoading(false);
+        window.scrollTo(0, 0);
+        sessionStorage.setItem('hasVisitedBefore', 'true')
+      }, 2000);
+    }
   }, []);
 
   return (
