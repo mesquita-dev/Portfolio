@@ -8,20 +8,20 @@ const data = [
     imgSrc: GrantoImage,
     techs: "Webdesign • Wordpress • UI/UX Design",
     title:
-      "Redesign do site da Granto Seguros. A reestruturação se baseou em alterar a página principal além de suas páginas internas.",
+      "Redesign of the Granto Seguros website. The restructuring was based on changing the main page in addition to its internal pages.",
     disabled: true,
-    alt: "Imagem do site da Granto Seguros. Uma startup focada em seguro garantia para empresas",
+    alt: "Image from the Granto Seguros website. A startup focused on guarantee insurance for companies",
     linkPublic: "https://grantoseguros.com",
     linkFigma: "",
   },
   {
     id: 2,
     imgSrc: CryptoApp,
-    techs: "UI/UX Design • Figma • App • Blockchain",
+    techs: "Product Design • Figma • App • Blockchain",
     title:
-      "Aplicativo para a compra e venda de NFT's que são comercializados no aplicativo com criptomoedas.",
+      "Application for buying and selling NFTs that are traded in the application with cryptocurrencies.",
     disabled: false,
-    alt: "Imagem de um aplicativo de criptomoedas para a compra e venda de NFTs",
+    alt: "Image of a cryptocurrency app for buying and selling NFTs",
     linkPublic: "https://www.behance.net/gallery/156620257/Crypto-App",
     linkFigma:
       "https://www.figma.com/file/jNvP2GEQkqaNMWVSgc89WI/Crypto-App?type=design&node-id=310%3A7826&mode=design&t=99csinPdxaAm3ocx-1",
@@ -29,11 +29,11 @@ const data = [
   {
     id: 3,
     imgSrc: BikcraftImage,
-    techs: "UI/UX Design • Figma • HTML, CSS e JavaScript",
+    techs: "Product Design • Figma • HTML, CSS and JavaScript",
     title:
-      "Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.",
+      "High precision and quality electric bicycles, custom-made for the customer. Explore the world at your speed with Bikcraft.",
     disabled: false,
-    alt: "Imagem para o site da Bikcraft que onde possui imagem de três de nossas bicicletas",
+    alt: "Image for the Bikcraft website which has images of three of our bikes",
     linkPublic: "https://mesquita-dev.github.io/Bikcraft/",
     linkFigma:
       "https://www.figma.com/file/v657Nm3KVnx1ViSZiKkHgu/Bikcraft?type=design&node-id=0%3A1&mode=design&t=EWU2wmef04GdTKNE-1",

@@ -39,7 +39,7 @@ const Projects = () => {
             {project.disabled ? (
               <Button className="flex gap-4 items-center" disabled>
                 <MagicWand size={16} />
-                Acessar protótipo
+                View prototype
               </Button>
             ) : (
               <Link href={project.linkFigma} target="_blank">
@@ -48,7 +48,7 @@ const Projects = () => {
                   className="flex gap-4 items-center sm:w-auto w-full"
                 >
                   <MagicWand size={16} />
-                  Acessar protótipo
+                  View prototype
                 </Button>
               </Link>
             )}
