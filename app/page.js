@@ -28,7 +28,7 @@ export default function Home() {
       setTimeout(() => {
         setIsLoading(false);
         window.scrollTo(0, 0);
-        sessionStorage.setItem('hasVisitedBefore', 'true')
+        sessionStorage.setItem("hasVisitedBefore", "true");
       }, 2000);
     }
   }, []);
@@ -42,19 +42,19 @@ export default function Home() {
       <Header />
 
       <Hero
-        textSpan="UI/UX Designer na Granto Seguros"
-        textTitle="Olá! Eu sou o Lucas"
-        textParagraph="Passo a maior parte do meu dia observando o design dia a dia e as
-        interações das pessoas com o mundo. O meu objetivo é, através de
-        interfaces, transformar a sua experiência em algo positivo."
-        textButton="Explore meus projetos"
+        textSpan="Product Designer at Granto Seguros"
+        textTitle="Hi! I'm Lucas"
+        textParagraph="I spend most of my day observing design day by day and how
+        people's interactions with the world. My goal is, through
+        interfaces, transform your experience into something positive."
+        textButton="Explore my projects"
         href="#projects"
       />
 
       <div>
         <section className="container border-x border-[#F0F0F0] py-10 sm:py-28 flex flex-col gap-4 sm:gap-40 sm:flex-row">
           <div>
-            <h2 className="text-black text-4xl font-bold mb-4">Serviços</h2>
+            <h2 className="text-black text-4xl font-bold mb-4">Services</h2>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -65,8 +65,9 @@ export default function Home() {
               <div>
                 <h3 className="text-white text-lg">UX Design</h3>
                 <p className="text-[#BABABA] text-sm mt-1">
-                  Criação de jornadas de usuário, design system e mapeamento de
-                  usuário para trazer uma melhor usabilidade e experiência.
+                  User flow, UX Research, Ux Writing, Usability Testing, A/B
+                  Testing and everything to improve the user experience with the
+                  application
                 </p>
               </div>
             </div>
@@ -79,9 +80,8 @@ export default function Home() {
               <div>
                 <h3 className="text-white text-lg">UI Design</h3>
                 <p className="text-[#BABABA] text-sm mt-1">
-                  Com a contrução de wireframes de baixa e alta fidelidade e
-                  criação de design através do Figma, facilita visualmente o
-                  futuro de sua interface.
+                  Moodboards, construction of low and high quality wireframes,
+                  prototyping in Figma and creation of the final user interface.
                 </p>
               </div>
             </div>
@@ -94,9 +94,9 @@ export default function Home() {
               <div>
                 <h3 className="text-white text-lg">Web Design</h3>
                 <p className="text-[#BABABA] text-sm mt-1">
-                  Essa é a parte onde todo o processo de idealização e criação
-                  será colocado em prática. Utilizando Wordpress e Elementor, a
-                  mágica irá acontecer nesse momento.
+                  This is the part where the entire ideation and creation
+                  process will be put into practice. Using Wordpress and
+                  Elementor, the magic will happen right now
                 </p>
               </div>
             </div>
@@ -107,12 +107,10 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="text-white text-lg">
-                  Desenvolvimento Front-end
-                </h3>
+                <h3 className="text-white text-lg">Front-end Development</h3>
                 <p className="text-[#BABABA] text-sm mt-1">
-                  Se deseja uma aplicação mais robusta, um desenvolvimento em
-                  front-end é ideal, utilizando HTML, CSS e JavaScript (React e
+                  If you want a more robust application, front-end development
+                  is ideal, using HTML, CSS and JavaScript (React, Vue and
                   Typescript).
                 </p>
               </div>
@@ -126,9 +124,7 @@ export default function Home() {
           className="container border border-[#F0F0F0] border-b-0 py-10 sm:py-16"
           id="projects"
         >
-          <h2 className="text-black text-4xl font-bold mb-6">
-            Projetos selecionados
-          </h2>
+          <h2 className="text-black text-4xl font-bold mb-6">Feature work</h2>
           <Projects />
         </section>
       </div>

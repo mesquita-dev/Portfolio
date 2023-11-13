@@ -10,7 +10,6 @@ const Projects = () => {
   return (
     <div>
       {data.map((project) => (
-
         <div key={project.id}>
           <Image
             src={project.imgSrc}
@@ -33,7 +32,7 @@ const Projects = () => {
             <Link href={project.linkPublic} target="_blank">
               <Button className="flex gap-4 items-center sm:w-auto w-full">
                 <ArrowUpRight size={16} />
-                Acessar projeto
+                View project
               </Button>
             </Link>
 
@@ -44,7 +43,10 @@ const Projects = () => {
               </Button>
             ) : (
               <Link href={project.linkFigma} target="_blank">
-                <Button variant="outline" className="flex gap-4 items-center sm:w-auto w-full">
+                <Button
+                  variant="outline"
+                  className="flex gap-4 items-center sm:w-auto w-full"
+                >
                   <MagicWand size={16} />
                   Acessar protótipo
                 </Button>
